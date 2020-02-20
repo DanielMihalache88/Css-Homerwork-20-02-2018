@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header-contaniner">
+            <section class="section-logo-search">
+                <div class="section-logo-search__logo">
+                    <a href="/none"><img src="svg/icon-logo.svg" alt="Twitter logo"/></a>
+                </div>
+                <div class="section-logo-search__search">
+                    <input
+                        type="search"
+                        aria-label="Search through site content"
+                        placeholder="Search Twitter"
+                    />
+                    <button type="submit">Search</button>
+                </div>
+            </section>
+            <section class="section-authentication">
+                <button type="button" class="button button--transparent">Log in</button>
+                <button type="button" class="button">Sign up</button>
+            </section>
+            <section class="section-settings">
+                <a href="/none">
+                    <img src="svg/icon-dots.svg" alt="Settings button" />
+                </a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <section class="content-main">
+                <section class="user-profile">
+                    <div class="user-profile__banner">
+                        <div class="user-profile__avatar"></div>
+                    </div>
+                    <div class="user-profile__follow-button text-right">
+                        <button type="button" class="button button--transparent button--follow">Follow</button>
+                    </div>
+                    <div class="user-profile__name">
+                        <h2><strong>greta</strong></h2>
+                        <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                        <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                        <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                        <img class="v-middle" src="svg/icon-checked.svg" alt="Verified profile icon">
+                        <p>@greta</p>
+                    </div>
+                    <div class="user-profile_bio">
+                        <p class="color-blue">#bitcoin</p>
+                        <div class="user-location">
+                            <img class="v-middle" src="svg/icon-location.svg" alt="Location icon">
+                            <span class="v-middle">Born 19 November 2000</span>
+                        </div>
+                        <div class="user-joined">
+                            <img class="v-middle" src="svg/icon-calendar.svg" alt="Calendar icon">
+                            <span class="v-middle">Joined March 2006</span>
+                        </div>
+                    </div>
+                    <div class="use-profile__stats">
+                        <div>
+                            <h3><strong>4.286</strong></h3>
+                            <span>Following</span>
+                        </div>
+                        <div>
+                            <h3><strong>4.3M</strong></h3>
+                            <span>Followers</span>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs color-white text-center">
+                    <ul>
+                        <li class="tab--active"><h3>Tweets</h3></li>
+                        <li><h3>Tweets & replies</h3></li>
+                        <li><h3>Media</h3></li>
+                        <li><h3>Likes</h3></li>
+                    </ul>
+                </section>
+                <section class="threads">
+                    <article class="thread thread--pinned">
+                        <div class="thread__status">
+                            <a href="/none"><img src="svg/icon-chat.svg" alt="Chat icon">Pinned Tweet</a>
+                        </div>
+                        <div class="thread__inner">
+                            <div class="profile-avatar v-top">
+                                <img src="img/greta.jpg" alt="Greta Thunberg photo">
+                            </div>
+                            <div class="thread_main-content v-top">
+                                <div class="thread_profile-name">
+                                    <h2 class="v-middle"><strong>greta</strong></h2>
+                                    <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                                    <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                                    <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                                    <img class="v-middle" src="svg/icon-checked.svg" alt="Verified profile icon">
+                                </div>
+                                <div class="thread__comment">
+                                    <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit repellat temporibus dignissimos voluptatibus officiis? Assumenda dolores quod consectetur nam in suscipit, corrupti sint! Ratione fugit numquam sint tempora qui eligendi ab ducimus quae, reiciendis vero, dolore explicabo voluptates quidem.</p>
+                                </div>
+                                <div class="thread__actions">
+                                    <ul>
+                                        <li><img class="v-middle" src="svg/icon-chat.svg" alt="Chat icon"><span class="v-middle">22.9K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-retweet.svg" alt="Retweet icon"><span class="v-middle">9.6K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-heart.svg" alt="Like icon"><span class="v-middle">45.4K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-share.svg" alt="Chat icon"><span class="v-middle">22.9K</span></li>
+                                    </ul>
+                                </div>
+                                <div class="thread__show-thread">
+                                    <a href="/none">Show this thread</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="thread">
+                        <div class="thread__status">
+                            <a href="/none" class="v-middle"><img src="svg/icon-retweet.svg" alt="Chat icon">greta</a>
+                            <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                            <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                            <img class="v-middle" src="img/earth.png" alt="Earth icon">
+                            <span class="v-middle">Retweeted</span>
+                        </div>
+                        <div class="thread__inner">
+                            <div class="profile-avatar v-top">
+                                <img src="img/greta.jpg" alt="Greta Thunberg photo">
+                            </div>
+                            <div class="thread_main-content v-top">
+                                <div class="thread_profile-name">
+                                    <h2 class="v-middle"><strong>Twitter Women</strong></h2>
+                                    <img class="v-middle" src="svg/icon-checked.svg" alt="Verified profile icon">
+                                </div>
+                                <div class="thread__comment">
+                                    <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit repellat temporibus dignissimos voluptatibus officiis? Assumenda dolores quod consectetur nam in suscipit, corrupti sint! Ratione fugit numquam sint tempora qui eligendi ab ducimus quae, reiciendis vero, dolore explicabo voluptates quidem.</p>
+                                </div>
+                                <div class="thread__retweeted-tweet">
+                                    <div class="thread_profile-name">
+                                        <h2 class="v-middle"><strong>Twitter Women</strong></h2>
+                                        <img class="v-middle" src="svg/icon-checked.svg" alt="Verified profile icon">
+                                        <span class="v-middle">@TwitterWomen</span>
+                                        <span class="twiteet-date v-middle">12 Feb</span>
+                                    </div>
+                                    <div class="thread__comment">
+                                        <p class="color-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur sit repellat temporibus dignissimos voluptatibus officiis? Assumenda dolores quod consectetur nam in suscipit, corrupti sint! Ratione fugit numquam sint tempora qui eligendi ab ducimus quae, reiciendis vero, dolore explicabo voluptates quidem.</p>
+                                    </div>
+                                    <div class="thread__show-thread">
+                                        <a href="/none">Show this thread</a>
+                                    </div>
+                                    <div class="thread_image"> </div>
+                                </div>
+                                <div class="thread__actions">
+                                    <ul>
+                                        <li><img class="v-middle" src="svg/icon-chat.svg" alt="Chat icon"><span class="v-middle">22.9K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-retweet.svg" alt="Retweet icon"><span class="v-middle">9.6K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-heart.svg" alt="Like icon"><span class="v-middle">45.4K</span></li>
+                                        <li><img class="v-middle" src="svg/icon-share.svg" alt="Chat icon"><span class="v-middle">22.9K</span></li>
+                                    </ul>
+                                </div>
+                                <div class="thread__show-thread">
+                                    <a href="/none">Show this thread</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </section>
+
+            <aside class="content-aside">
+                <article class="content-aside__new-user borders-rounded">
+                    <h2><strong>New to Twitter?</strong></h2>
+                    <p>Sign up now to get your own personalized timeline!</p>
+                    <button type="button" class="button">Sign up</button>
+                </article>
+
+                <article class="content-aside__images borders-rounded">
+                    <div class="images-container">
+                        <img src="img/image-1.jpg" alt="Random image">
+                        <img src="img/image-1.jpg" alt="Random image">
+                        <img src="img/image-1.jpg" alt="Random image">
+                    </div>
+                    <div class="images-container">
+                        <img src="img/image-1.jpg" alt="Random image">
+                        <img src="img/image-1.jpg" alt="Random image">
+                        <img src="img/image-1.jpg" alt="Random image">
+                    </div>
+                </article>
+
+                <article class="content-aside__suggestions borders-rounded">
+                    <h2><strong>You might like</strong></h2>
+                    
+                    <div class="suggestion">
+                        <div class="suggestion_details">
+                            <div class="suggestion_avatar"></div>
+                            <div class="suggestion_name">
+                                <a href="/none"><span>Greta Thunberg</span><img src="svg/icon-checked.svg" alt="Verified profile icon"></a>
+                                <p>@greta</p>
+                            </div>
+                        </div>    
+                        <div class="suggestion_follow-button">
+                            <button type="button" class="button button--transparent">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="suggestion">
+                        <div class="suggestion_details">
+                            <div class="suggestion_avatar"></div>
+                            <div class="suggestion_name">
+                                <a href="/none"><span>Greta Thunberg</span><img src="svg/icon-checked.svg" alt="Verified profile icon"></a>
+                                <p>@greta</p>
+                            </div>
+                        </div>    
+                        <div class="suggestion_follow-button">
+                            <button type="button" class="button button--transparent">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="suggestion">
+                        <div class="suggestion_details">
+                            <div class="suggestion_avatar"></div>
+                            <div class="suggestion_name">
+                                <a href="/none"><span>Greta Thunberg</span><img src="svg/icon-checked.svg" alt="Verified profile icon"></a>
+                                <p>@greta</p>
+                            </div>
+                        </div>    
+                        <div class="suggestion_follow-button">
+                            <button type="button" class="button button--transparent">Follow</button>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="/none" class="link-show-more">Show more</a>
+                    </footer>
+                </article>
+
+                <article class="content-aside_trends borders-rounded">
+                    <h2><strong>Trends</strong></h2>
+                </article>
+
+                <article class="content-aside_links">
+                    <ul>
+                        <li><a href="/none">Terms</a></li>
+                        <li><a href="/none">Privacy Policy</a></li>
+                        <li><a href="/none">Cookies</a></li>
+                        <li><a href="/none">Ads Info</a></li>
+                        <li><a href="/none">More</a></li>
+                    </ul>
+                    <span>&copy; 2020 Twitter, Inc.</span>
+                </article>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
